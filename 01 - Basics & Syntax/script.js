@@ -1,8 +1,8 @@
-// ====================================================================
-// VARIABLE HOISTING PROBLEM SET (NO SOLUTIONS)
-// STRICT RULES: No loops, No conditions, No functions, No arrays, No objects
-// ====================================================================
+/* 
+         VARIABLE HOISTING PROBLEM SET (NO SOLUTIONS)
+         STRICT RULES: No loops, No conditions, No functions, No arrays, No objects
 
+*/
 
 // Q1:
 console.log(a);  // Undefined
@@ -140,6 +140,90 @@ console.log(typeof undefined == typeof null);  // Output ==> False
 //Q27 :-
 Boolean("false")
 
-//Q27 :-
+//Q28 :-
 console.log("5" * "2");  // Output ==> NaN
+
+
+/*
+
+            Basic Operators (Arithmetic, Assignment, Increment, Decrement,Comparison, Logical, Bitwise) Assignment Problem Set (NO SOLUTIONS)
+            STRICT RULES: No loops, No conditions, No functions, No arrays, No objects
+
+ */
+
+
+//Q29:  Perform all the arithmetic operations on 
+a = 10, b = 3.
+
+console.log(`${a + b}`);
+console.log(`${a - b}`);
+console.log(`${a * b}`);
+console.log(`${a / b}`);
+console.log(`${a % b}`);
+
+
+//Q30:  Perform all the assignment operations on 
+x = 5;
+x = x + 3;
+log(x); // Output ==> 8
+x += 3;
+log(x); // Output ==> 11
+x -= 2;
+log(x); // Output ==> 9
+x *= 2;
+log(x); // Output ==> 18
+x /= 3;
+log(x); // Output ==> 6
+
+//Q31:  Perform all the increment and decrement operations on
+let count = 5;
+log(count); // Output ==> 5
+count++
+log(count); // Output ==> 6 
+count--;
+log(count); // Output ==> 5
+
+
+//Q32:Compare two values: 5 == “5” and 5 === “5”.
+
+console.log(5 == "5");  // Output ==> True
+console.log(5 === "5"); // Output ==> False
+
+//Q33:Check if 10 is greater than 5, less than 20, and equal to 10.
+
+if (10 > 5 && 10 < 20 && 10 === 10) {
+    console.log("All conditions are met.");
+} else {
+    console.log("Some conditions are not met.");
+}
+
+//Q34:Try logical AND and OR:
+console.log(true && false);  // Output ==> False
+console.log(true || false);  // Output ==> True
+console.log(!(true));        // Output ==> False
+
+//Q35:Predict the result of:
+console.log((5 > 3 && 10 > 8)); // Output ==> True
+console.log((5 > 3 || 10 < 8)); // Output ==> True
+
+//Q36:Bitwise (light intro): Evaluate 5 & 1 and 5 | 1.
+
+console.log(5 & 1);  // Output ==> 1
+console.log(5 | 1);  // Output ==> 5
+
+
+
+/*                               =====> Variable Hoisting in JavaScript <====== */
+
+//Q.1 : Predict output of:
+console.log(a);
+var a = 10;    // Output ==> Undefined
+
+//Q.2 :  Predict output of:
+console.log(td);
+ let td = 10 // Output ==> Reference Error Bcz of TDZ
+
+ //Q.3 : Predict output of:
+ test()
+function test() { console.log("Hello") }  // Output ==> Hello
 
