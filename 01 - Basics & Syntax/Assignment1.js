@@ -2,58 +2,58 @@
 
 let a = 10;
 
-// {
-//     console.log(a);
-// }
+{
+    console.log(a);
+}
 
 // Q:2:- Pridict the Output
 
-// a = 100;
+a = 100;
 
-// {
-//     console.log(a);
-//     let a = 50;
-// }
+{
+    console.log(a);
+    let a = 50;
+}
 
 // Q:3:- Pridict the Output
 
-// let x;
+let x;
 
-// if (x) {
-//     console.log("Yes");
-// } else {
-//     console.log("No");
-// }
+if (x) {
+    console.log("Yes");
+} else {
+    console.log("No");
+}
 
 // Q:4:- Pridict the Output
 
 a = "false";
 
-// if (a) {
-//     console.log("YES");
-// } else {
-//     console.log("NO");
-// }
+if (a) {
+    console.log("YES");
+} else {
+    console.log("NO");
+}
 
 // Q:5:- Pridict the Output
 
 a = "0";
 
-// if (a == false) {
-//     console.log("Match");
-// }
+if (a == false) {
+    console.log("Match");
+}
 
 // Q:5:- Pridict the Output
 
 a = "5";
 let b = 5;
 
-// if (a == b) {
-//     console.log("Equal");
-// } else {
-//     console.log("Not Equal");
-// }
-// console.log(a === b);
+if (a == b) {
+    console.log("Equal");
+} else {
+    console.log("Not Equal");
+}
+console.log(a === b);
 
 /*
                        ====> Intermediate (Loops + Scope + Hoisting) <========
@@ -62,11 +62,11 @@ let b = 5;
 
 //Q:1:- Pridict the Output
 
-// for (let i = 0; i < 3; i++) {
-//   console.log(i);
-// }
+for (let i = 0; i < 3; i++) {
+  console.log(i);
+}
 
-// console.log(i);   // error ----> i is not defined.
+console.log(i);   // error ----> i is not defined.
 
 //Q:2:- Pridict the Output
 
